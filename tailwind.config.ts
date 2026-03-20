@@ -58,11 +58,11 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				neon: {
-					green: '#00E676',
-					lime: '#C6FF00',
-					orange: '#FF6D00',
-					pink: '#FF4081',
-					blue: '#00B0FF',
+					green: '#f97316',
+					lime: '#fbbf24',
+					orange: '#dc6803',
+					pink: '#e11d48',
+					blue: '#d97706',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
