@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
+import SplashScreen from "@/components/SplashScreen";
 import MapView from "@/components/MapView";
 import CatalogView from "@/components/CatalogView";
 import ProfileView from "@/components/ProfileView";
@@ -23,6 +24,7 @@ const tabs: { id: Tab; label: string; icon: string; gradient?: string }[] = [
 ];
 
 export default function Index() {
+  const [ready, setReady] = useState(false);
   const [activeTab, setActiveTab] = useState<Tab>("map");
 
   const renderContent = () => {
@@ -39,6 +41,8 @@ export default function Index() {
   };
 
   return (
+    <>
+      {!ready && <SplashScreen onDone={() => setReady(true)} />}
     <div className="mobile-container bg-background">
       {/* Content */}
       <div className="h-full overflow-hidden">
@@ -78,5 +82,6 @@ export default function Index() {
         </div>
       </nav>
     </div>
+    </>
   );
 }
