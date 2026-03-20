@@ -20,9 +20,16 @@ export default function MapView() {
       {/* Header */}
       <div className="px-5 pt-6 pb-4 animate-fade-in">
         <div className="flex items-center justify-between mb-1">
-          <div>
-            <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">Рядом с тобой</p>
-            <h1 className="text-2xl font-black font-golos text-foreground">Площадки 🐾</h1>
+          <div className="flex items-center gap-3">
+            <img
+              src="https://cdn.poehali.dev/projects/9bbef214-6211-4ea8-b61b-81dc6f25c80f/files/185c8d38-5cfa-4682-bfec-be7d478fa3ab.jpg"
+              alt="ПёсПарк"
+              className="w-11 h-11 rounded-2xl object-cover shadow-sm"
+            />
+            <div>
+              <h1 className="text-xl font-black font-golos leading-tight" style={{background: 'linear-gradient(135deg, #f97316, #f59e0b)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>ПёсПарк</h1>
+              <p className="text-xs font-medium text-muted-foreground leading-tight">Рядом с тобой</p>
+            </div>
           </div>
           <button className="w-10 h-10 rounded-2xl bg-white shadow-sm border border-border flex items-center justify-center">
             <Icon name="SlidersHorizontal" size={18} className="text-foreground" />
