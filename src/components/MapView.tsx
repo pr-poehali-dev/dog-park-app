@@ -22,7 +22,7 @@ export default function MapView() {
         <div className="flex items-center justify-between mb-1">
           <div className="flex items-center gap-3">
             <img
-              src="https://cdn.poehali.dev/projects/9bbef214-6211-4ea8-b61b-81dc6f25c80f/files/185c8d38-5cfa-4682-bfec-be7d478fa3ab.jpg"
+              src="https://cdn.poehali.dev/projects/9bbef214-6211-4ea8-b61b-81dc6f25c80f/files/4ea18f57-217b-4716-a6c1-906d5425dfef.jpg"
               alt="ПёсПарк"
               className="w-11 h-11 rounded-2xl object-cover shadow-sm"
             />
