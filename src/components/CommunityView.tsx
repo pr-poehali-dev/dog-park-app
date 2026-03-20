@@ -45,7 +45,7 @@ export default function CommunityView() {
       {/* Header */}
       <div className="px-5 pt-6 pb-4 animate-fade-in">
         <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">Сообщество</p>
-        <h1 className="text-2xl font-black font-golos text-foreground">Собаководы 🐶</h1>
+        <h1 className="text-2xl font-black font-playfair text-foreground">Собаководы 🐶</h1>
 
         {/* Tabs */}
         <div className="flex gap-2 p-1 bg-muted rounded-2xl mt-3">

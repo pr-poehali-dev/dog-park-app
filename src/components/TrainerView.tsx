@@ -84,7 +84,7 @@ export default function TrainerView() {
       {/* Header */}
       <div className="px-5 pt-6 pb-4 animate-fade-in">
         <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">Обучение</p>
-        <h1 className="text-2xl font-black font-golos text-foreground">Кинологи 🎓</h1>
+        <h1 className="text-2xl font-black font-playfair text-foreground">Кинологи 🎓</h1>
 
         {/* Banner */}
         <div className="mt-3 rounded-3xl bg-gradient-to-r from-violet-500 to-indigo-600 p-4 flex items-center gap-3 relative overflow-hidden">

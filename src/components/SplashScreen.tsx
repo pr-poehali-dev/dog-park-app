@@ -80,7 +80,7 @@ export default function SplashScreen({ onDone }: { onDone: () => void }) {
 
       {/* Title */}
       <h1 style={{
-        fontFamily: "'Golos Text', sans-serif",
+        fontFamily: "'Playfair Display', serif",
         fontWeight: 900,
         fontSize: 36,
         background: "linear-gradient(135deg, #f97316, #f59e0b)",

@@ -56,7 +56,7 @@ export default function ReviewsView() {
       {/* Header */}
       <div className="px-5 pt-6 pb-4 animate-fade-in">
         <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">Мнения</p>
-        <h1 className="text-2xl font-black font-golos text-foreground">Отзывы ⭐</h1>
+        <h1 className="text-2xl font-black font-playfair text-foreground">Отзывы ⭐</h1>
       </div>
 
       <div className="flex-1 overflow-y-auto px-5 space-y-4">

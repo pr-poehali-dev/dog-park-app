@@ -23,7 +23,7 @@ export default function SupportView() {
       {/* Header */}
       <div className="px-5 pt-6 pb-4 animate-fade-in">
         <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">Помощь</p>
-        <h1 className="text-2xl font-black font-golos text-foreground">Поддержка 💬</h1>
+        <h1 className="text-2xl font-black font-playfair text-foreground">Поддержка 💬</h1>
       </div>
 
       <div className="flex-1 overflow-y-auto px-5 space-y-4">
@@ -33,7 +33,7 @@ export default function SupportView() {
           <div className="absolute -bottom-4 -left-4 w-20 h-20 rounded-full bg-white/10" />
           <div className="relative">
             <p className="text-3xl mb-2">🐾</p>
-            <p className="text-white font-black text-xl font-golos">Мы рядом!</p>
+            <p className="text-white font-black text-xl font-playfair">Мы рядом!</p>
             <p className="text-white/80 text-sm mt-1">Среднее время ответа — 15 минут</p>
             <div className="flex items-center gap-2 mt-3">
               <div className="w-2 h-2 rounded-full bg-neon-lime animate-pulse-dot" />

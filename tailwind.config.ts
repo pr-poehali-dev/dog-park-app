@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				golos: ['Golos Text', 'sans-serif'],
+				playfair: ['Playfair Display', 'serif'],
 				caveat: ['Caveat', 'cursive'],
 			},
 			colors: {

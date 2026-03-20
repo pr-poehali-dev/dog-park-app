@@ -35,7 +35,7 @@ export default function ProfileView() {
           </div>
           <div>
             <p className="text-white/80 text-xs font-medium">Добро пожаловать!</p>
-            <h1 className="text-2xl font-black text-white font-golos">Александр</h1>
+            <h1 className="text-2xl font-black text-white font-playfair">Александр</h1>
             <p className="text-white/70 text-xs mt-0.5">Участник с марта 2024</p>
           </div>
           <button className="ml-auto w-9 h-9 rounded-xl bg-white/20 flex items-center justify-center">

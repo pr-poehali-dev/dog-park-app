@@ -27,7 +27,7 @@ export default function MapView() {
               className="w-11 h-11 rounded-2xl object-cover shadow-sm"
             />
             <div>
-              <h1 className="text-xl font-black font-golos leading-tight" style={{background: 'linear-gradient(135deg, #f97316, #f59e0b)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>ПёсПарк</h1>
+              <h1 className="text-xl font-black font-playfair leading-tight" style={{background: 'linear-gradient(135deg, #f97316, #f59e0b)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>ПёсПарк</h1>
               <p className="text-xs font-medium text-muted-foreground leading-tight">Рядом с тобой</p>
             </div>
           </div>

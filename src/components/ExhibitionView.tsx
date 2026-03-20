@@ -75,7 +75,7 @@ export default function ExhibitionView() {
       {/* Header */}
       <div className="px-5 pt-6 pb-4 animate-fade-in">
         <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">Помоги найти дом</p>
-        <h1 className="text-2xl font-black font-golos text-foreground">Выставки 🐾</h1>
+        <h1 className="text-2xl font-black font-playfair text-foreground">Выставки 🐾</h1>
 
         {/* Hero */}
         <div className="mt-3 rounded-3xl overflow-hidden relative bg-gradient-to-br from-rose-500 via-pink-500 to-orange-400 p-5">
@@ -83,7 +83,7 @@ export default function ExhibitionView() {
           <div className="absolute -bottom-4 left-10 w-20 h-20 rounded-full bg-white/10" />
           <div className="relative">
             <p className="text-4xl mb-2 animate-float inline-block">🐶🐱</p>
-            <p className="text-white font-black text-xl font-golos leading-tight">
+            <p className="text-white font-black text-xl font-playfair leading-tight">
               Каждый заслуживает<br />любящий дом
             </p>
             <p className="text-white/80 text-xs mt-2 leading-relaxed">

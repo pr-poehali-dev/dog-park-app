@@ -50,7 +50,7 @@ export default function CatalogView() {
       {/* Header */}
       <div className="px-5 pt-6 pb-3 animate-fade-in">
         <p className="text-xs font-medium text-muted-foreground uppercase tracking-widest">Каталог</p>
-        <h1 className="text-2xl font-black font-golos text-foreground">Все площадки 🗺️</h1>
+        <h1 className="text-2xl font-black font-playfair text-foreground">Все площадки 🗺️</h1>
       </div>
 
       {/* Categories */}
